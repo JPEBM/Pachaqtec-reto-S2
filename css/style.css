@@ -1,0 +1,140 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main
+{
+  width: 100%;
+  height: 100%;
+}
+
+#one
+{
+  width: 100%;
+  
+}
+
+#one figure
+{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+#one figure h1
+{
+color: rgb(255, 255, 255);
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 54px;
+position: absolute;
+top: 1%;
+right: 40%;
+
+}
+
+
+
+#one figure h2
+{
+background-color: rgba(114, 153, 254, 0.5);
+border-radius: 10px;
+color: white;
+padding: 1%;
+position: absolute;
+width: 28%;
+text-align: left;
+top: 50%;
+left: 10%;
+font-size: 33px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+
+}
+
+#two 
+{
+  background-color:#7299FE;
+  margin-top: -5px;
+  width: 100%;
+  height: 100%;
+}
+
+#two p
+{
+  text-align: justify;
+  margin: 5%;
+  font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+#two h1
+{
+text-align: center;
+padding-top: 2% ;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+color: white;
+
+}
+#two button
+{
+background: #D16FFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.158);
+border-radius: 10px;
+width: 150px;
+height: 40px;
+margin-left: 5%;
+margin-bottom: 5%;
+color: white;
+}
+
+#tree
+{
+  background: #9122FF;
+  height: 400px;
+}
+
+
+
+#four
+{
+  background: #FFD233;
+  height: 400px;
+}
+
+#five
+{
+  background: #3F4E62;
+  height: 400px;
+}
+#six
+{
+  background: #1687A0;
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
