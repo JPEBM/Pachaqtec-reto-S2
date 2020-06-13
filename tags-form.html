@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas de formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Etiquetas de formulario</h1>
+    </header>
+    <p>Este es un formulario creado con estructura html5</p>
+
+    <form action="#" autocomplete="off">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" id="name" placeholder="Escriba aqui su nombre" required ><br><br>
+        <label for="lname">Apellido:</label>
+        <input type="text" name="lname" id="lname" placeholder="Escriba aqui sus Apellidos" size="30" required><br><br>
+        <label for="mail">Correo:</label>
+        <input type="email" name="mail" id="mail" placeholder="Escriba su correo electronico" size="40" required><br><br>
+        <label for="gender">Genero:</label><br>
+        <input type="radio" name="gender" id="men" value="Masculino" checked required>
+        <label for="men">Masculino</label>
+        <input type="radio" name="gender" id="woman" value="Femenino" required>
+        <label for="woman">Femenino</label>
+        <input type="radio" name="gender" id="other" value="Marciano" required>
+        <label for="other">Marciano</label><br><br>
+        <label for="country">Nacionalidad:</label>
+        <select name="country" id="country" style="width: 200px;" required disabled >
+            <option value="Peruano">Peruano</option>
+            <option value="Chileno">Chileno</option>
+            <option value="Español">Español</option>
+            <option value="Frances">Frances</option>
+            <option value="Italiano">Italiano</option>
+        </select><br><br>
+        <label for="Hobbies">Hobbies:</label><br><br>
+        <input type="checkbox" value="Futbol" name="Futbol" id="Futbol">
+        <label for="Futbol">Futbol</label>
+        <input type="checkbox" value="Tennis" name="Tennis" id="Tennis">
+        <label for="Tennis">Tenis</label>
+        <input type="checkbox" value="Voley" name="Voley" id="Voley">
+        <label for="Voley">Voley</label>
+        <input type="checkbox" value="Ajedrez" name="chess" id="chess">
+        <label for="chess">Ajedrez</label><br><br>
+        <label for="area">Texto:</label><br>
+        <textarea name="area" id="area" cols="30" rows="10" required placeholder="Escriba sus sugerencias" style="width: 400px;"></textarea><br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+        
+    </form>
+    
+</body>
+</html>
