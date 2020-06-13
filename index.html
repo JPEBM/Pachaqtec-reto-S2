@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project-basic</title>
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
   <main>
     <section id="one">
       <figure>
-        <img src="./img/banner.png" alt="banner" width="100%">
+        <img src="./img/banner.png" alt="banner" >
         <h1>Pachaqtec</h1>
           <h2>Hola, mi nombre <br>es Sebastian Yabiku</h2>
       </figure>
@@ -52,9 +53,15 @@
       </p>
     </section>
     <section id="six">
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis a cumque accusamus quam aperiam ut quibusdam nam illum alias qui veritatis reiciendis, soluta saepe totam voluptates quia. Magnam, tempora tenetur?
-      </p>
+        <h1>Contacto</h1>
+      <form action="#" autocomplete="on">
+        <input type="text" name="name" id="name" placeholder="Nombre" required pattern="[A-Za-z]{4,10}">
+        <input type="text" name="lname" id="lname" placeholder="Apellido" required pattern="[A-Za-z ]{4,15}"><br><br>
+        <input type="email" name="mail" id="mail" placeholder="Email" required pattern="[a-z0-9._+-]+@[a-z0-9-]+\.[a-z]{2,3}$">
+        <input type="text" name="movil" id="movil" placeholder="Movil" required pattern="[0-9]{9,9}"><br><br>
+        <textarea name="area" id="are" cols="30" rows="10" placeholder="Descripcion..." required pattern="[A-Za-z0-9 ]"></textarea><br><br>
+        <button type="submit" onclick="alert('Boton para enviar')">ENVIAR</button>
+      </form>
     </section>
   </main>
 
