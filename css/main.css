@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+form
+{
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 10px 8px 5px 0px rgba(0,0,0,0.75);
+}
+
+body
+{
+    background-color: purple;
+}
+h1
+{
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: white;
+    background-color: purple;
+    margin-top: 5%;
+}
+
+input:valid
+{
+    border-color: green;
+}
+
+input:invalid
+{
+    border-color: red;
+}
+
+input:focus
+{
+    background-color: yellow;
+}
+
+footer
+
+{
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
