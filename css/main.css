@@ -1,4 +1,495 @@
-.primero
+
+/*------- Main-------*/
+
+main
 {
-  background-image: url(../img/banner.png);
+  /* Box-model */
+  width: 100%;
+  height: 100%;
+
+  /* Typography */
+  font-style: normal;
+  font-weight: bold;
 }
+
+/* --------- Section class box-one ---------*/
+
+.box-one, 
+.box-one figure img
+{
+  /* Box-model */
+  width: 100%;
+
+  /* Positioning */
+  position: relative;
+  
+}
+
+.box-one h1
+{
+
+/* Typography */
+color: rgb(255, 255, 255);
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 4em;
+
+/* Positioning */
+position: absolute;
+top: 1%;
+right: 40%;
+
+}
+
+.box-one h2
+{
+
+
+/* Typography */
+text-align: left;
+font-size: 33px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+
+/* Positioning */
+position: absolute;
+top: 50%;
+left: 10%;
+padding: 1%;
+
+/* Box-model */
+
+width: 28%;
+border-radius: 10px;
+color: white;
+background-color: rgba(114, 153, 254, 0.5);
+
+}
+
+
+/* -------------Section class box-two---------------*/
+
+.box-two 
+{
+
+  /* Box-model */
+
+  width: 100%;
+  height: 100%;
+  background-color:#7299FE;
+  margin-top: -5px;
+}
+
+.box-two h1
+{
+  
+  /* Typography */
+text-align: center;
+padding-top: 2% ;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+color: white;
+
+}
+
+.box-two p
+{
+  /* Typography */
+  text-align: justify;
+  margin: 5%;
+  font-family: Helvetica;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+button
+{
+
+  /* Box-model */
+width: 150px;
+height: 40px;
+margin-left: 5%;
+margin-bottom: 5%;
+color: white;
+
+/* Visual */
+background: #D16FFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.158);
+border-radius: 10px;
+}
+
+button:hover
+{
+  /* Box-color */
+background-color: #FFD233;
+}
+
+/* Section class box-three*/
+
+.box-three
+{
+  /* Visual */
+  background: #9122FF;
+
+  /* Box-model */
+  height: 400px;
+}
+
+.box-three h1
+{
+  /* Typography */
+  color: #26CC4B;
+  text-align: center;
+  padding-top: 3% ;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+}
+.box-three-skill
+{
+  /* Box-model */
+  width: 100%;
+}
+
+.file-one-html,
+.file-one-css, 
+.file-two-java, 
+.file-two-vue, 
+.file-three-flex, 
+.file-three-grid
+{
+  /* Box-model */
+  display: inline-block;
+  width: 48%;
+  margin-top: 20px;
+}
+
+.box-three-skill 
+{
+  /* Box-model */
+  width: 100%;
+  margin-top: 30px;
+}
+
+
+.box-three p
+{
+  /* Typography */
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+/*--------Barra de progreso general - diseño -----------*/
+
+.progress-bar
+{
+  /* Box-model */
+  height: 30px;
+  margin-left: 1%;
+
+  /* Visual */
+  background-color:#FFFFFF;
+  border-radius: 10px;
+}
+
+.porcent-bar-html
+{
+  /* Box-model */
+  width: 80%;
+  height: 30px;
+
+  /* Visual */
+  border-radius: 10px;
+  background-color: #57EFF9;
+}
+.porcent-bar-css
+{
+  /* Box-model */
+  width: 60%;
+  height: 30px;
+
+  /* Visual */
+  border-radius: 10px;
+  background-color: #57EFF9;
+}
+.porcent-bar-java
+{
+  /* Box-model */
+  width: 60%;
+  height: 30px;
+
+  /* Visual */
+  border-radius: 10px;
+  background-color: #57EFF9;
+}
+.porcent-bar-vue
+{
+  /* Box-model */
+  width: 65%;
+  height: 30px;
+
+  /* Visual */
+  border-radius: 10px;
+  background-color: #57EFF9;
+}
+
+.porcent-bar-flex
+{
+  /* Box-model */
+  width: 75%;
+  height: 30px;
+
+  /* Visual */
+  border-radius: 10px;
+  background-color: #57EFF9;
+}
+.porcent-bar-grid
+{
+  /* Box-model */
+  width: 45%;
+  height: 30px;
+
+  /* Visual */
+  border-radius: 10px;
+  background-color: #57EFF9;
+}
+
+/* -------------------- Section class box-four----------------*/
+
+.box-four
+{
+  /* Visual */
+  background: #FFD233;
+
+  /* Box-model */
+  height: 400px;
+  
+}
+
+.box-four-file
+{
+
+  /* Typography */
+  text-align: center;
+
+  /* Box-model */
+  width: 100%;
+}
+
+.box-four-file .file-one-img img
+{
+  /* Box-model */
+  max-width: 100%;
+}
+.box-four h1
+{
+  
+/* Typography */
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 41px;
+color: #00AD84;
+text-align: center;
+padding: 3% 0 3% 0;
+}
+
+.file-one-img, 
+.file-two-img
+{
+  /* Box-model */
+  margin: 1%;
+}
+
+.file-one-img img, 
+.file-two-img img
+{
+  /* Box-model */
+  margin: .5%;
+}
+/* ----------- Section class box-five -------------- */
+
+.box-five
+{
+
+  /* Visual */
+  background: #3F4E62;
+  padding: 3% 0 3% 0;
+  
+  /* Box-model */
+  height: 100%;
+  
+  
+}
+
+.box-five h1
+{
+  /* Typography */
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+  color:  #ADFF28;
+  margin-bottom: 2%;
+}
+
+.box-five-img
+{
+  /* Typography */
+  text-align: center;
+}
+
+/* --------------------- Section class box-six ------------------*/
+.box-six
+{
+  background: #1687A0;
+  height: 100%;
+  
+}
+
+.box-six h1
+{
+  /* Typography */
+  text-align: center;
+  padding-top: 3% ;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 3%;
+  color: red;
+}
+
+.box-six form input
+{
+  height: 30px;
+  width: 40%;
+}
+
+
+.box-six form textarea
+{
+  /* Box-model */
+  width: 82%;
+  height: 200px;
+
+  /* Typography */
+  font-size: 18px;
+  
+}
+
+.box-six form
+{
+  /* Box-model */
+  margin: auto;
+  text-align: center;  
+}
+
+.box-six form button
+{
+  /* Box-model */
+  width: 167px;
+  height: 56px;
+
+  /* Typography */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5%;
+
+  /* Visual */
+  background: #233451;
+
+}
+
+.box-six form textarea:focus,
+input:focus
+{
+  /* Visual */
+  background-color: yellow;
+}
+
+.box-six form input:valid
+{
+  /* Visual */
+  border-color: green;
+}
+
+.box-six form textarea:invalid,
+input:invalid
+{
+  /* Visual */
+  border-color: red;
+}
+
+
+/* -------------------------- Reponsive-DEMO --------------------------*/
+
+@media screen and (max-width: 670px)
+{
+  .box-one h1
+  {
+    font-size: 2em;
+  }
+  .box-one h2
+  {
+    font-size: 1em;
+  }
+
+  .box-two p
+{
+  font-size: 15px;
+}
+
+}
+
+@media screen and (max-width: 320px)
+{
+  .box-one h1
+  {
+    font-size: 1em;
+  }
+  .box-one h2
+  {
+    font-size: .5em;
+  }
+  .box-two p
+  {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  button
+  {
+  background: #D16FFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.158);
+  font-size: 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  color: white;
+}
+}
+
+
+
+
+
+
+
+

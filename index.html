@@ -5,20 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project-basic</title>
   <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
   
   <main>
-    <section id="one">
+            <!--Box Primero-->
+    <section class="box-one">
       <figure>
         <img src="./img/banner.png" alt="banner" >
-        <h1>Pachaqtec</h1>
-          <h2>Hola, mi nombre <br>es Sebastian Yabiku</h2>
       </figure>
+      <h1>Pachaqtec</h1>
+      <h2>Hola, mi nombre <br>es Sebastian Yabiku</h2>
     </section>
 
-    <section id="two">
+          <!--Box Segundo-->
+    <section class="box-two">
       <h1>Sobre mi</h1>
     
       <p>
@@ -33,26 +35,92 @@
 
     </section>
 
-    <section id="tree">
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque vel dicta tempore sequi blanditiis labore non, mollitia similique magni quis maxime, cupiditate rem exercitationem minus expedita qui sint minima tenetur.
-      </p>
+        <!--Box Tercero-->
+    <section class="box-three">
+        <h1>Mis Skills</h1>
+        <!--Box Tercero Skill-->
+      <div class="box-three-skill">
+        <div class="file-one-html">
+          <p>HTML</p>
+          <div class="progress-bar">
+            <div class="porcent-bar-html"></div>
+          </div>
+        </div>
+        <div class="file-one-css">
+          <p>CSS</p>
+          <div class="progress-bar">
+            <div class="porcent-bar-css"></div>
+          </div>
+        </div>
+          <div class="file-two-java">
+            <p>Javascript</p>
+            <div class="progress-bar">
+              <div class="porcent-bar-java"></div>
+            </div>
+          </div>
+          <div class="file-two-vue">
+            <p>Vue</p>
+            <div class="progress-bar">
+             <div class="porcent-bar-vue"></div>
+            </div>
+          </div>
+         
+        <div class="file-three-flex">
+          <div class="file-two">
+            <p>Flexbox</p>
+            <div class="progress-bar">
+             <div class="porcent-bar-flex"></div>
+            </div>
+          </div>
+        </div>
 
+        <div class="file-three-grid">
+            <p>CSS grid</p>
+            <div class="progress-bar">
+            <div class="porcent-bar-grid"></div>
+            </div>
+        </div>
+      </div>
+       
+    </section>
+            <!--Box Cuarto -->
+    <section class="box-four">
+          <h1> Portafolio</h1>
+        <div class="box-four-file">
+          <div class="file-one-img">
+            <picture>
+              <img src="./img/image-01.png" alt="img-01">
+              <img src="./img/image-02.png" alt="img-02">
+              <img src="./img/image-03.png" alt="img-03">
+              <img src="./img/image-04.png" alt="img-04">
+            </picture>
+          </div>
+          <div class="file-two-img">
+            <picture>
+              <img src="./img/image-5.png" alt="img-05">
+              <img src="./img/image-6.png" alt="img-06">
+              <img src="./img/image-7.png" alt="img-07">
+              <img src="./img/image-8.png" alt="img-08">
+            </picture>
+
+          </div>
+        </div>
+    </section>
+          <!--Box Quinto-->
+    <section class="box-five">
+      <h1>Clientes</h1>
+      <div class="box-five-img">
+      <picture>
+        <img src="./img/image-10.png" alt="img-10">
+        <img src="./img/image-11.png" alt="img-11">
+        <img src="./img/image-10.png" alt="img-10">
+        <img src="./img/image-12.png" alt="img-12">
+      </picture>
+    </div>
     </section>
 
-    <section id="four">
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque vel dicta tempore sequi blanditiis labore non, mollitia similique magni quis maxime, cupiditate rem exercitationem minus expedita qui sint minima tenetur.
-      </p>
-
-    </section>
-
-    <section id="five">
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque vel dicta tempore sequi blanditiis labore non, mollitia similique magni quis maxime, cupiditate rem exercitationem minus expedita qui sint minima tenetur.
-      </p>
-    </section>
-    <section id="six">
+          <!--Box Sexto-->
+    <section class="box-six">
         <h1>Contacto</h1>
       <form action="#" autocomplete="on">
         <input type="text" name="name" id="name" placeholder="Nombre" required pattern="[A-Za-z]{4,10}">
