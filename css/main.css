@@ -68,6 +68,14 @@ background-color: rgba(114, 153, 254, 0.5);
 
 }
 
+.box-one p
+{
+  margin-top: 1%;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+}
 
 /* -------------Section class box-two---------------*/
 
